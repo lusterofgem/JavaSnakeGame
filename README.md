@@ -12,4 +12,4 @@ Open "runPixelSnake.bat".
 
 1. Install [tdm-gcc](https://jmeubank.github.io/tdm-gcc/download/) & set it to environment path.
 
-2. Open a terminal in project root, and type: `mingw32-make`
+2. Open a terminal in project root, and type: `mingw32-make`.
