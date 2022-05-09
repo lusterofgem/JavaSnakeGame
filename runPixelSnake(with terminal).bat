@@ -1,0 +1,1 @@
+start java --module-path "javafx-sdk-18.0.1/lib;javafx-sdk-18.0.1/bin" --add-modules javafx.controls -jar PixelSnake.jar

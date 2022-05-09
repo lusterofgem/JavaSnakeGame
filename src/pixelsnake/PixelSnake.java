@@ -14,6 +14,9 @@ public class PixelSnake extends Application
     public void start(Stage stage)
     {
         stage.setTitle("PixelSnake");
+
+        
+        
         stage.show();
 	}
 }
