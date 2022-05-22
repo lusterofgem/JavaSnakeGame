@@ -5,14 +5,13 @@ import java.util.ArrayList;
 
 public class Snake
 {
-    public ArrayList<SnakeUnit> snakeUnits = new ArrayList<SnakeUnit>();
+    private ArrayList<SnakeUnit> snakeUnits = new ArrayList<SnakeUnit>();
+    private Direction direction = Direction.NORTH;
+    private boolean dead = false;
 
     public Color headColor = new Color(255, 100, 100);
     public Color tailColor = new Color(255, 255, 255);
     public Color eyeColor = new Color(255, 255, 0);
-
-    private Direction direction = Direction.NORTH;
-    private boolean dead = false;
 
     private int spawnPointX;
     private int spawnPointY;
@@ -78,6 +77,11 @@ public class Snake
             }
         }
 
+    }
+
+    public ArrayList<SnakeUnit> getSnakeUnits()
+    {
+        return snakeUnits;
     }
 
     /// get the size of snake

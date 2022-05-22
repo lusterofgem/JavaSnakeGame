@@ -41,7 +41,7 @@ public class JavaSnakeGame extends JPanel implements KeyListener
         // draw snake
         for(int i = 0; i < snake.size(); ++i)
         {
-            SnakeUnit snakeUnit = snake.snakeUnits.get(i);
+            SnakeUnit snakeUnit = snake.getSnakeUnits().get(i);
             if(isGameOver())
             {
                 graphics.setColor(new Color(120, 120, 120));
@@ -75,7 +75,7 @@ public class JavaSnakeGame extends JPanel implements KeyListener
         // draw snake eye
         if(!isGameOver())
         {
-            SnakeUnit snakeUnit = snake.snakeUnits.get(0);
+            SnakeUnit snakeUnit = snake.getSnakeUnits().get(0);
             final int EYE_UNIT_WIDTH = UNIT_WIDTH / 5;
             final int EYE_UNIT_HEIGHT = UNIT_HEIGHT / 5;
             graphics.setColor(snake.eyeColor);
