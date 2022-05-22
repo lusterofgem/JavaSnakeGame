@@ -6,7 +6,7 @@ Build with openjdk 17.0.1
 
 ## how to run
 
-Open "run.bat" or just type `java -jar JavaSnakeGame` in console
+Open "run.bat" or type `java -jar JavaSnakeGame` in console
 
 ## how to build
 
