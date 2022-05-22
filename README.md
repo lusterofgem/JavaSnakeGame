@@ -1,4 +1,4 @@
-# PixelSnake
+# JavaSnakeGame
 
 A java snake game. 🐍
 
