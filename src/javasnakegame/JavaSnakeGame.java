@@ -20,8 +20,7 @@ public class JavaSnakeGame extends JPanel implements KeyListener
 
     private boolean paused = true;
     private Snake snake = new Snake(MAP_X / 2, MAP_Y / 2);
-
-    public Food food = new Food();
+    private Food food = new Food();
 
     public JavaSnakeGame()
     {

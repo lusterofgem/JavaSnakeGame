@@ -7,7 +7,7 @@ class Food
     public int x;
     public int y;
 
-    Color color = new Color(255, 0, 0);
+    public Color color = new Color(255, 0, 0);
 
     public Food()
     {

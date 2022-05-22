@@ -11,7 +11,7 @@ public class Snake
     public Color tailColor = new Color(255, 255, 255);
     public Color eyeColor = new Color(255, 255, 0);
 
-    public Direction direction = Direction.NORTH;
+    private Direction direction = Direction.NORTH;
     private boolean dead = false;
 
     private int spawnPointX;

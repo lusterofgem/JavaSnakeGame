@@ -2,8 +2,8 @@ package javasnakegame;
 
 public class SnakeUnit
 {
-    int x;
-    int y;
+    public int x;
+    public int y;
 
     public SnakeUnit()
     {
