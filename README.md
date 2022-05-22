@@ -6,7 +6,7 @@ Build with openjdk 17.0.1.
 
 ## how to run
 
-Open "runPixelSnake.bat".
+Open "run.bat".
 
 ## how to build
 
